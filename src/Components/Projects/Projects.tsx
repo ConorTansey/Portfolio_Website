@@ -1,5 +1,4 @@
 import './Projects.css'
-import { Typewriter } from '../TypingEffect/Typewriter'
 
 function Projects() {
     return ( 

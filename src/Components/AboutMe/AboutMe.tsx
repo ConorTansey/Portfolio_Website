@@ -1,8 +1,6 @@
-import react from 'react'
 import './AboutMe.css'
 import ProfilePhoto from "/Me_3.jpeg"
 import Email from '/Gmail.png'
-import Ball from '/Circle.png'
 import LinkedIn from '/LinkedIn.png'
 import { Typewriter } from '../TypingEffect/Typewriter'
 

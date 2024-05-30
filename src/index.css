@@ -13,12 +13,12 @@
 }
 
 a {
-  color: white; /* Use the inherited text color */
+  color: black; /* Use the inherited text color */
   text-decoration: none; /* Remove the underline */
 }
 
 a:hover {
-  color: white; /* Maintain the text color on hover */
+  color: black; /* Maintain the text color on hover */
   text-decoration: underline; /* You can change this if you want a different hover effect */
 }
 
