@@ -1,0 +1,120 @@
+.About_Me {
+    display:flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    min-height:80%;
+    width: 100vw;
+}
+
+.About_Me .About_Me_Content .Title{
+    font-size:x-large;
+}
+
+.About_Me_Content{
+    display: flex;
+    margin-left: 5%;
+    padding: 2%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    border-radius: 7px;
+    border-width: 5px;
+    color: black;
+    border-color: black;
+    height:50%;
+}
+
+.About_Me_Content .Additional_Info{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:80%;
+}
+
+.About_Me_Content .Additional_Info button{
+   height:60px;
+   width: 130px;
+}
+
+.About_Me .About{
+    text-align: left;
+}
+
+.About_Me .Photo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+}
+
+.About_Me .Photo img{
+    border-radius: 50px;
+    height: 700px;
+
+}
+
+.Social_Links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Social_Links .Gmail{
+    padding:30px;
+    height:50px;
+    width: auto;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.Social_Links .Gmail:hover{
+    transform: scale(1.1);
+}
+
+.Social_Links .LinkedIn{
+    padding:30px;
+    height:50px;
+    width: auto;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.Social_Links .LinkedIn:hover{
+    transform: scale(1.1);
+}
+
+.Wrapper .Photo{
+    height:100%;
+}
+
+.Wrapper .Photo img{
+    max-height: 80%;
+}
+
+@media (max-width:850px) {
+    .About_Me {
+        margin-top: 200px;
+        display:flex;
+        position: relative;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        height:100vh;
+        width: 100vw;
+    }
+
+    .About_Me .About_Me_Content{
+        width: 70%;
+    }
+
+    .About_Me .About_Me_Content .About{
+        text-align: center;
+    }
+
+    .About_Me .Photo img{
+        display: none;
+    }
+}

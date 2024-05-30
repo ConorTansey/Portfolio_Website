@@ -1,0 +1,99 @@
+.Professional_Wrapper{
+    min-height:100vh;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+    flex: 1;
+}
+
+.Professional_Wrapper .Professional_Grid{
+    margin-top: 60px;
+    display: grid;
+    height: 50%;
+    width: 80%;
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.Professional_Wrapper .Professional_Grid .SIG_Description p{
+    text-align: left;
+    margin-top:10px;
+    margin-bottom: 10px;;
+}
+
+.Professional_Wrapper .Professional_Grid li{
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+
+.Professional_Wrapper .Professional_Grid .SIG{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Professional_Wrapper .Professional_Grid .Innopharma{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Professional_Wrapper .Professional_Grid .Innopharma_Description p{
+    text-align: left;
+    margin-top:10px;
+    margin-bottom: 10px;;
+}
+
+.Professional_Wrapper .Professional_Grid .Grinds_Description p{
+    text-align: left;
+    margin-top:10px;
+    margin-bottom: 10px;;
+}
+
+.Professional_Wrapper .Professional_Grid img{
+    padding:50px;
+    height: 80px;
+    width: auto;
+    mix-blend-mode: multiply;
+}
+
+
+.Professional_Wrapper .Professional_Grid .Grinds img{
+    padding-top:50px;
+    margin-right: 200px;
+    padding-bottom: 50px;
+    height: 170px;
+    width: auto;
+    mix-blend-mode: multiply;
+}
+
+@media (max-width:850px){
+    .Professional_Wrapper .Professional_Grid{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Professional_Wrapper .Professional_Grid .Grinds img{
+       
+        margin-right: 0px;
+       
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

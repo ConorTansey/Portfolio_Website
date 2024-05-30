@@ -1,0 +1,81 @@
+.Education_Wrapper{
+    height:100%;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.Education_Wrapper .Education_Grid{
+    margin-top: 60px;
+    display: grid;
+    height: 75%;
+    width: 65%;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+}
+
+.Education_Wrapper .Education_Grid .UoB{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Education_Wrapper .Education_Grid .Trinity{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Education_Wrapper .Education_Grid .UoB_Description{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.Education_Wrapper .Education_Grid .UoB_Description p{
+    text-align: left;
+    margin-top:10px;
+    margin-bottom: 10px;;
+}
+
+.Education_Wrapper .Education_Grid .Trinity_Description{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.Education_Wrapper .Education_Grid .Trinity_Description p{
+    text-align: left;
+    margin-top:10px;
+    margin-bottom: 10px;;
+}
+
+.Education_Wrapper .Education_Grid .Trinity .Trinity_Img{
+    padding:50px;
+    height: 130px;
+    width: auto;
+}
+
+.Education_Wrapper .Education_Grid .UoB .UoB_Img{
+    padding:50px;
+    height: 130px;
+    width: auto;
+}
+
+@media (max-width:999px){
+    .Education_Wrapper .Education_Grid{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Education_Wrapper .Education_Grid .UoB_Description{
+        text-align: center;
+    }
+}

@@ -1,0 +1,44 @@
+.Projects{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.Projects_Wrapper{
+    height:80%;
+    width:50%;
+    padding: 10px;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow-y:visible;
+
+}
+
+.Projects_Wrapper a {
+    color: rgba(204, 120, 92);
+    font-size: large;
+}
+
+.Projects_Wrapper div{
+    background-color: white;
+    margin: 15px;
+    border-radius: 7px;
+    padding:10px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.Projects .Projects_Wrapper div:hover{
+    transform: scale(1.05);
+}
+
+@media (max-width:650px){
+    .Projects_Wrapper{
+        width: 70%;
+    }
+}
+
