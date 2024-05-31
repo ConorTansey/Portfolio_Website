@@ -20,7 +20,7 @@ function Academic() {
             <div className="Trinity_Description">
                 <p><h3>Trinity College Dublin - BA Mathematics</h3> 2016 - 2020</p>
                 <p><b>Achieved Upper Second Class Honours</b></p>
-                <p><b>Example Classes</b>: Calculus, Linear Algebra, Computation Theory and Logic, Symbolic Programming,Formal Verification, Differential Equations, Complex Analysis</p>
+                <p><b>Classes Taken</b>: Calculus, Linear Algebra, Computation Theory and Logic, Symbolic Programming,Formal Verification, Differential Equations, Complex Analysis</p>
             </div>
         </div>
     </div> );

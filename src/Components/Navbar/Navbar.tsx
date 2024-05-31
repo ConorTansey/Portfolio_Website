@@ -4,17 +4,19 @@ import './Navbar.css'
 function Navbar() {
     return ( 
         <div className="Navbar">
-            <div className="Section">
-                <Link className="AboutLink" to="/">About</Link>
-            </div>
-            <div className = "Section">
-                <Link className="AboutLink" to="/Experience">Professional Experience</Link>
-            </div>
-            <div className = "Section">
-                <Link className="AboutLink" to="/Academic">Academic Background</Link>
-            </div>
-            <div className = "Section">
-                <Link className="AboutLink" to="/Projects">Projects</Link>
+            <div className="Navbar_Contents">
+                <div className="Section">
+                    <Link className="AboutLink" to="/Portfolio_Website">About</Link>
+                </div>
+                <div className = "Section">
+                    <Link className="AboutLink" to="/Portfolio_Website/Experience">Professional Experience</Link>
+                </div>
+                <div className = "Section">
+                    <Link className="AboutLink" to="/Portfolio_Website/Academic">Academic Background</Link>
+                </div>
+                <div className = "Section">
+                    <Link className="AboutLink" to="/Portfolio_Website/Projects">Projects</Link>
+                </div>
             </div>
         </div>
      );

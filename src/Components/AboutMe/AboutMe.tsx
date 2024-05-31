@@ -15,9 +15,9 @@ function AboutMe() {
                 <div className="About">
                     <p>My name is Conor Tansey. I'm a software engineer from Ireland 
                     and have an MSc in Computer Science from the University of Birmingham and a
-                    BA in Mathematics. I recently worked in high frequency
+                    BA in Mathematics from Trinity College Dublin. I recently worked in high frequency
                     trading and am currently pursuing my next opportunity.</p>
-                    <p>Interested in various areas including full stack development, distributed systems and machine learning</p>
+                    <p>Interested in various areas including full stack development, distributed systems, finance and machine learning.</p>
                 </div>
                 <h5>Contact Links</h5>
                 <div className="Social_Links">

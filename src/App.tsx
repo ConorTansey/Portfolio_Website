@@ -17,10 +17,10 @@ function App() {
         </div>
         <div className="Content">
           <Routes>
-            <Route path="/" element={<AboutMe/>}/>
-            <Route path="/Experience" element={<Experience/>}/>
-            <Route path="/Projects" element={<Projects/>}/>
-            <Route path="/Academic" element={<Academic/>}/>
+            <Route path="/Portfolio_Website" element={<AboutMe/>}/>
+            <Route path="/Portfolio_Website/Experience" element={<Experience/>}/>
+            <Route path="/Portfolio_Website/Projects" element={<Projects/>}/>
+            <Route path="/Portfolio_Website/Academic" element={<Academic/>}/>
           </Routes>
         </div>
       </div>

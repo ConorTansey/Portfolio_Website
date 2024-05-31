@@ -9,13 +9,15 @@
 }
 
 .Projects_Wrapper{
-    height:80%;
+
+    height:100%;
     width:50%;
-    padding: 10px;
+    padding: 50px;
+    box-sizing: content-box;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: column;
-    overflow-y:visible;
+    overflow-y:initial;
 
 }
 
@@ -30,7 +32,6 @@
     border-radius: 7px;
     padding:10px;
     transition: transform 0.3s ease;
-    cursor: pointer;
 }
 
 .Projects .Projects_Wrapper div:hover{
@@ -38,7 +39,7 @@
 }
 
 @media (max-width:650px){
-    .Projects_Wrapper{
+    .Projects_Wrapper {
         width: 70%;
     }
 }
