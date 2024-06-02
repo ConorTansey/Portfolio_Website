@@ -1,12 +1,13 @@
 .Professional_Wrapper{
-    min-height:100vh;
-    width:80%;
+    
+    max-width:90%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     color: black;
     flex: 1;
+    
 }
 
 .Professional_Wrapper .Professional_Grid{
@@ -67,7 +68,7 @@
 .Professional_Wrapper .Professional_Grid .Grinds img{
     padding-top:50px;
     margin-right: 200px;
-    height: 170px;
+    height: 150px;
     padding-bottom: 0px;
     padding-top: 30px;
     width: auto;

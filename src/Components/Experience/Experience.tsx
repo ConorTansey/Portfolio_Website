@@ -13,7 +13,7 @@ function Experience() {
                 <div className="SIG_Description">
                     <p><h3>Software Engineer | 2022 - 2023</h3></p>
                     <ul>
-                        <li>Developed the front and back end of the trading application used by traders and researchers, added functionality to the order management system to support the order processing of new financial instruments and worked on the simulation exchange system to test trading strategies all using C# and C++.</li>
+                        <li>Developed the front and back end of the trading application used by traders and researchers, added functionality to the order management system to support the order processing of new financial instruments and worked on the simulation exchange system to test trading strategies all using C++, C#, HTML, CSS and ReactJS.</li>
                         <li>Experience building analytical tools and ETL pipelines for researchers using Python and SQL.</li>
                         <li>Was often given the responsibility of working in a production support role which involved quickly diagnosing and resolving issues that arose within the live production environment.</li>
                     </ul>
@@ -24,10 +24,10 @@ function Experience() {
                 <div className="Innopharma_Description">
                     <p><h3>Software Engineer | 2020 - 2021</h3></p>
                     <ul>
-                        <li>Contributed to full stack development tasks mostly using Java and React. Sample tasks included improving the user experience of the company’s website, migrating the security authentication system from OAuth 1.0
+                        <li>Contributed to full stack development tasks mostly using Java and ReactJS/Typescript. Sample tasks included improving the user experience of the company’s website, migrating the security authentication system from OAuth 1.0
 to OAuth 2.0 and adding API functionality.</li>
                         <li>Was the lead developer behind an instance segmentation machine learning model built in PyTorch which was
-used to segment images of particles passing by a camera at high speed.</li>
+used to segment images of particles passing by a camera.</li>
                     </ul>
                 </div>
                 <div className="Grinds">
